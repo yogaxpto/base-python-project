@@ -1,8 +1,8 @@
-from unittest import TestCase
-
-import main
+from src.main import double
 
 
-class MainTest(TestCase):
+
+
+class TestMain:
     def test_double(self) -> None:
-        self.assertEqual(4, main.double(2))
+        assert 4 == double(2)
