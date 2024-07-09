@@ -31,7 +31,8 @@
 				"charliermarsh.ruff",
 				"be5invis.toml",
 				"ms-azuretools.vscode-docker",
-				"donjayamanne.git-extension-pack"
+				"donjayamanne.git-extension-pack",
+				"github.vscode-github-actions"
 			]
 		}
 	}
