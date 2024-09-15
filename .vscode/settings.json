@@ -6,5 +6,5 @@
         "**/.pytest_cache": true,
         "**/**/*.egg-info": true,
         "**/.ruff_cache": true
-}
+    }
 }
