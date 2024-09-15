@@ -27,7 +27,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade uv
-        uv pip install -r pyproject.toml
+        uv --system pip install -r pyproject.toml
     - name: Lint with ruff
       run: |
         ruff check
