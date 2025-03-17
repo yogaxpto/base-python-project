@@ -6,9 +6,9 @@
       "integrity": "sha256:5b1c376d30719a4dead8fb2f272ee496cfb506f2f92b7acf9e1c24cb5399ba7d"
     },
     "ghcr.io/stuartleeks/dev-container-features/shell-history:0": {
-      "version": "0.0.3",
-      "resolved": "ghcr.io/stuartleeks/dev-container-features/shell-history@sha256:6caee1863304394cbd58f815757a55bce3f9150a4396ca8e2703683367e919ac",
-      "integrity": "sha256:6caee1863304394cbd58f815757a55bce3f9150a4396ca8e2703683367e919ac"
+      "version": "0.0.5",
+      "resolved": "ghcr.io/stuartleeks/dev-container-features/shell-history@sha256:e02e01729d5fc6ac78ec5954fd5c71b9c037acfc0897adf0c8adeafea9d24b3d",
+      "integrity": "sha256:e02e01729d5fc6ac78ec5954fd5c71b9c037acfc0897adf0c8adeafea9d24b3d"
     }
   }
 }
