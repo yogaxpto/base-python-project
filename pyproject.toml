@@ -18,3 +18,14 @@ dev-dependencies = [
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+
+[tool.coverage.run]
+omit = [
+  "*/tests/*"
+]
+
+[tool.coverage.report]
+omit = [
+  "*/tests/*"
+]
