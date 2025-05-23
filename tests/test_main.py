@@ -1,4 +1,4 @@
-from src.main import double
+from base_python_assignment.main import double
 
 
 class TestMain:
