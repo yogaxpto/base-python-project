@@ -6,6 +6,7 @@
         "**/.pytest_cache": true,
         "**/**/*.egg-info": true,
         "**/.ruff_cache": true,
-        "**/.mypy_cache": true
+        "**/.mypy_cache": true,
+        ".coverage": true
     }
 }
