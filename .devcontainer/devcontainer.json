@@ -34,7 +34,8 @@
 				"donjayamanne.git-extension-pack",
 				"github.vscode-github-actions",
 				"ZainChen.json",
-				"mohsen1.prettify-json"
+				"mohsen1.prettify-json",
+				"DavidAnson.vscode-markdownlint"
 			]
 		}
 	},
