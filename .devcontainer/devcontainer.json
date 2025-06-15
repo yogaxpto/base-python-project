@@ -35,7 +35,8 @@
 				"github.vscode-github-actions",
 				"ZainChen.json",
 				"mohsen1.prettify-json",
-				"DavidAnson.vscode-markdownlint"
+				"DavidAnson.vscode-markdownlint",
+				"ms-python.mypy-type-checker"
 			]
 		}
 	},
