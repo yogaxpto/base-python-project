@@ -29,3 +29,9 @@ omit = [
 omit = [
   "*/tests/*"
 ]
+
+[tool.mypy]
+strict = true
+show_error_codes = true
+warn_unused_configs = true
+pretty = true

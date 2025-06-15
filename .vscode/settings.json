@@ -1,4 +1,6 @@
 {
+    "mypy-type-checker.preferDaemon": true,
+    "mypy-type-checker.reportingScope": "workspace",
     "python.testing.pytestEnabled": true,
     "python.testing.unittestEnabled": false,
     "files.exclude": {
