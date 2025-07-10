@@ -1,6 +1,6 @@
 # base-python-project
 
-![Python Version](https://img.shields.io/badge/python-3.13-blue)
+![Python Version](https://img.shields.io/badge/python-latest-blue)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
 ## Overview
