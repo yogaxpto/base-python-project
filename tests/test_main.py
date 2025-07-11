@@ -1,4 +1,4 @@
-from base_python_assignment.main import double
+from base_python_project.main import double
 
 
 class TestMain:
