@@ -10,7 +10,7 @@ This repository is a **base template for Python projects** with a containerized 
 ### Key Features
 
 - Dockerized development with `Dockerfile` and `docker-compose.yml`
-- Python 3.13 and [uv](https://pypi.org/project/uv/) for dependency management
+- Python 3.14 and [uv](https://pypi.org/project/uv/) for dependency management
 - Linting with [ruff](https://github.com/astral-sh/ruff)
 - Unit testing setup with [pytest](https://docs.pytest.org/)
 - GitHub Actions CI integration
