@@ -1,10 +1,15 @@
 FROM python:3-alpine
 
-ENV UV_SYSTEM_PYTHON=true
+ENV UV_SYSTEM_PYTHON=true \
+    UV_CACHE_DIR=/root/.cache/uv \
+    PIP_CACHE_DIR=/root/.cache/pip
 
 WORKDIR /app
 
-RUN pip install --no-cache-dir uv 
+RUN --mount=type=cache,target=/root/.cache/pip \
+    pip install uv
 
 COPY pyproject.toml uv.lock ./
-RUN uv pip install --no-cache-dir -r pyproject.toml --group dev
+
+RUN --mount=type=cache,target=/root/.cache/uv \
+    uv pip install -r pyproject.toml --group dev
