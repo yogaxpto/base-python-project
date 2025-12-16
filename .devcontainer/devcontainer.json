@@ -36,7 +36,8 @@
 				"ZainChen.json",
 				"mohsen1.prettify-json",
 				"DavidAnson.vscode-markdownlint",
-				"ms-python.mypy-type-checker"
+				"ms-python.mypy-type-checker",
+				"redhat.vscode-yaml"
 			]
 		}
 	},
