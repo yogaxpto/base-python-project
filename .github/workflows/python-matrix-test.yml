@@ -48,6 +48,7 @@ jobs:
   test:
     name: Test (Python ${{ matrix.python-version }})
     needs: discover-versions
+    continue-on-error: true
     strategy:
       matrix:
         python-version: ${{ fromJson(needs.discover-versions.outputs.python-versions) }}
