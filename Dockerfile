@@ -1,4 +1,5 @@
-FROM python:3-alpine
+ARG PYTHON_VERSION=3.14
+FROM python:${PYTHON_VERSION}-alpine
 
 ENV UV_SYSTEM_PYTHON=true \
     UV_CACHE_DIR=/root/.cache/uv \
