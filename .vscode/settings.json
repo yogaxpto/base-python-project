@@ -18,5 +18,15 @@
         "**/.ruff_cache": true,
         "**/.mypy_cache": true,
         ".coverage": true
-    }
+    },
+    "json.schemas": [
+        {
+            "fileMatch": [
+                ".markdownlint.json",
+                ".markdownlint.jsonc",
+                ".markdownlint-cli2.jsonc"
+            ],
+            "url": "https://raw.githubusercontent.com/DavidAnson/markdownlint/v0.40.0/schema/markdownlint-config-schema.json"
+        }
+    ]
 }
