@@ -40,7 +40,7 @@ cd base-python-project
 
 ```bash
 .
-├── base_python_assignment/   # Main Python package
+├── base_python_project/   # Main Python package
 ├── tests/                    # Pytest test suite
 ├── .devcontainer/            # VS Code DevContainer setup
 ├── .github/workflows/        # GitHub Actions workflows
@@ -59,7 +59,7 @@ cd base-python-project
 ### Run the App
 
 ```bash
-python -m base_python_assignment
+python -m base_python_project
 ```
 
 ### Run Tests
