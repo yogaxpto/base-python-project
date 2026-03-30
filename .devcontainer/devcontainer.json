@@ -29,7 +29,6 @@
 				"ms-python.python",
 				"tamasfe.even-better-toml",
 				"charliermarsh.ruff",
-				"be5invis.toml",
 				"ms-azuretools.vscode-docker",
 				"donjayamanne.git-extension-pack",
 				"github.vscode-github-actions",
