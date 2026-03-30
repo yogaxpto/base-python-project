@@ -88,6 +88,7 @@ The workflow uses [snok/latest-python-versions](https://github.com/snok/latest-p
 ### CI Workflow
 
 Two workflows are available:
+
 - **Python Matrix Tests** (`.github/workflows/python-matrix-test.yml`) - Multi-version testing with automatic discovery
 - **Test** (`.github/workflows/python-test.yml`) - Docker-based single-version testing
 
