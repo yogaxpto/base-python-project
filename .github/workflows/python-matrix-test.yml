@@ -78,4 +78,4 @@ jobs:
         run: uv pip install -r pyproject.toml --group dev
 
       - name: Run pytest
-        run: pytest --cov --cov-report=term-missing
+        run: pytest
