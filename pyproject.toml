@@ -21,17 +21,13 @@ dev = [
     "pytest-cov>=6.1.1",
 ]
 
-[tool.uv]
-no-build = true
-
-
 [tool.uv.pip]
 system = true
 
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
 
 [tool.coverage.run]
