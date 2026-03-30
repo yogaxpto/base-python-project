@@ -14,7 +14,7 @@ jobs:
       python-versions: ${{ steps.get-versions.outputs.latest-python-versions }}
       latest-python: ${{ steps.get-versions.outputs.latest-python-version }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Parse minimum Python version from pyproject.toml
         id: parse-version
@@ -55,7 +55,7 @@ jobs:
       fail-fast: false
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v5
