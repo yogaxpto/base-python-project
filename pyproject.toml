@@ -19,7 +19,7 @@ Repository = "https://github.com/yogaxpto/base-python-project"
 [dependency-groups]
 dev = [
     "pytest>=9.0.3",
-    "ruff>=0.15.15",
+    "ruff>=0.15.20",
     "mypy>=2.1.0",
     "pytest-cov>=6.1.1",
 ]
