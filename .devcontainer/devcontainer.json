@@ -20,7 +20,11 @@
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
-		"ghcr.io/devcontainers/features/common-utils:2.7.1": {},
+		"ghcr.io/devcontainers/features/common-utils:2.7.2": {
+			"username": "vscode",
+			"userUid": "1000",
+			"userGid": "1000"
+		},
 		"ghcr.io/stuartleeks/dev-container-features/shell-history:0": {}
 	},
 	"customizations": {
@@ -40,7 +44,10 @@
 			]
 		}
 	},
-	"postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}"
+	"postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
+
+	// Connect as a non-root user (Claude Code refuses --dangerously-skip-permissions as root).
+	"remoteUser": "vscode"
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
@@ -56,7 +63,4 @@
 
 	// Configure tool-specific properties.
 	// "customizations": {},
-
-	// Uncomment to connect as an existing user other than the container default. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "devcontainer"
 }
