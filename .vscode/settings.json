@@ -28,5 +28,6 @@
             ],
             "url": "https://raw.githubusercontent.com/DavidAnson/markdownlint/v0.40.0/schema/markdownlint-config-schema.json"
         }
-    ]
+    ],
+    "makefile.configureOnOpen": false
 }

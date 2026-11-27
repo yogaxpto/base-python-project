@@ -24,9 +24,14 @@
 			"username": "vscode",
 			"userUid": "1000",
 			"userGid": "1000"
-		},
-		"ghcr.io/stuartleeks/dev-container-features/shell-history:0": {}
+		}
 	},
+
+	// Persist bash/zsh history across rebuilds in a named volume (see setup-shell-history.sh).
+	"mounts": [
+		"source=${localWorkspaceFolderBasename}-shellhistory,target=/commandhistory,type=volume"
+	],
+	"postCreateCommand": "sh .devcontainer/setup-shell-history.sh",
 	"customizations": {
 		"vscode": {
 			"extensions": [
